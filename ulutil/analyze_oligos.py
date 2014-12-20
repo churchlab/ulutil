@@ -3,10 +3,7 @@ import sys
 from Bio import SeqIO
 import numpy as np
 
-import seqtools
-import oligoTm
-import unafold
-import blat
+from ulutil import seqtools, oligoTm, unafold, blat
 
 # ==================
 # = Output primers =

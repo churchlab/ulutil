@@ -1,4 +1,4 @@
-import exonerate
+from ulutil import exonerate
 
 standard_primers = {    # 5' -> 3'
     'M13R' : 'caggaaacagctatgac',

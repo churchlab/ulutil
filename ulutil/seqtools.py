@@ -4,11 +4,10 @@ import string
 import random
 import itertools
 
-from Bio            import Alphabet
-from Bio.Seq        import Seq
-from Bio.SeqRecord  import SeqRecord
+from Bio import Alphabet, pairwise2
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import SeqFeature, FeatureLocation
-from Bio            import pairwise2
 
 import numpy as np
 import scipy as sp
@@ -16,8 +15,8 @@ import scipy.stats
 
 from jellyfish import hamming_distance
 
-import unafold
-from pyutils import as_handle
+from ulutil import unafold
+from ulutil.pyutils import as_handle
 
 random.seed()
 

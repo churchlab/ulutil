@@ -1,6 +1,5 @@
 import sys
-from Bio.Blast import NCBIWWW
-from Bio.Blast import NCBIXML
+from Bio.Blast import NCBIWWW, NCBIXML
 
 def number_genome_qblast_hits(seqreclist):
     fastastring = ''.join([rec.format('fasta') for rec in seqreclist])

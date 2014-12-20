@@ -7,7 +7,7 @@ import os
 import signal
 import time
 
-import seqtools
+from ulutil import seqtools
 
 hg_idx = '~/genome/hg19.2bit'
 

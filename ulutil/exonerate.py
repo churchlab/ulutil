@@ -2,7 +2,7 @@ import os
 import tempfile
 import subprocess
 
-import seqtools
+from ulutil import seqtools
 
 class ExonerateCommand(object):
     """Build command for exonerate"""

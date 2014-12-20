@@ -1,6 +1,6 @@
 import pygraphviz as pgv
 
-import scale
+from ulutil import scale
 
 def load_immunitree_nodes(infile):
     G = pgv.AGraph(strict=True,directed=True)

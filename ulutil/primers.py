@@ -1,6 +1,4 @@
-import oligoTm
-import unafold
-import seqtools
+from ulutil import oligoTm, unafold, seqtools
 
 def generate_candidates(seq,minlen=18,maxlen=30):
     candidates = []

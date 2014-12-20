@@ -1,7 +1,7 @@
 from numpy import array, power, log, log10, log1p, choose, sum
 from Bio import SeqIO
 from itertools import izip
-from seqtools import reverse_complement
+from ulutil.seqtools import reverse_complement
 
 def stitch(record1, record2):
     seq1 = array([record1.seq.tostring()])
